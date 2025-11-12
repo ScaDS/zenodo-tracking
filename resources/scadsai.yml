@@ -558,3 +558,427 @@ resources:
   url:
   - https://zenodo.org/records/15516022
   - https://doi.org/10.5281/zenodo.15516022
+
+- authors:
+  - Robert Haase
+  - Martin Czygan
+  description: A collection of Python Jupyter Notebooks with Generative Artificial Intelligence
+    related contents
+  license: BSD 3-Clause "New" or "Revised" License
+  name: generative-ai-notebooks
+  publication_date: '2024-07-02T07:28:41+00:00'
+  submission_date: '2025-11-12T11:16:51.957807'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/generative-ai-notebooks
+  
+- authors:
+  - gg46ixav
+  - Marvin Hofer
+  - Maximiliantoepfer
+  - Daniel Obraczka
+  - Pinkcamouflage
+  description: Open Data Integration Benchmark Lab
+  license: MIT License
+  name: ODIBEL
+  publication_date: '2021-10-14T08:12:00+00:00'
+  submission_date: '2025-11-12T11:16:56.764869'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ODIBEL
+  
+- authors:
+  - Elias Werner
+  - MandaloreUltimate
+  - OutlyingWest
+  description: coarse grained performance monitoring in Jupyter
+  license: Other
+  name: jumper_ipython_extension
+  publication_date: '2025-09-23T18:57:23+00:00'
+  submission_date: '2025-11-12T11:17:01.122836'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/jumper_ipython_extension
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: ai4science-ufz-2025
+  publication_date: '2025-11-03T07:39:36+00:00'
+  submission_date: '2025-11-12T11:17:04.306761'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai4science-ufz-2025
+  
+- authors:
+  - "Matthias T\xE4schner"
+  - lucaspeter99
+  - jp31zusu
+  description: AI based information extraction and retrieval for similarity search on
+    technical drawings
+  license: Apache License 2.0
+  name: CoLIBRi
+  publication_date: '2025-08-19T10:28:15+00:00'
+  submission_date: '2025-11-12T11:17:08.296445'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/CoLIBRi
+  
+- authors:
+  - Marvin Hofer
+  description: A framework for developing and evaluating Knowledge Graph pipelines
+  license: Apache License 2.0
+  name: KGpipe
+  publication_date: '2025-09-27T12:03:46+00:00'
+  submission_date: '2025-11-12T11:17:11.112712'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/KGpipe
+  
+- authors:
+  - SalonderZukunft
+  - "Matthias T\xE4schner"
+  - Robert Haase
+  - Martin Rudolph
+  - Omid Shayestehpour
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: ai-school-iom-2025
+  publication_date: '2025-09-02T08:25:19+00:00'
+  submission_date: '2025-11-12T11:17:15.982593'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai-school-iom-2025
+  
+- authors:
+  - "Matthias T\xE4schner"
+  - mxsunc
+  - dsinas
+  - Robert Haase
+  - 'Asier Rabasco '
+  - "Laura \u017Digutyt\u0117"
+  - kepler186f-git
+  - mar-chem
+  description: Resources and materials for a DataScience / AI training school for the
+    medical domain, conducted as part of the Come2Data (https://come2data.de/) project.
+  license: Creative Commons Attribution 4.0 International
+  name: ai4medicine-2025
+  publication_date: '2025-05-13T08:12:43+00:00'
+  submission_date: '2025-11-12T11:17:21.953410'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai4medicine-2025
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: ai4psychology-2025
+  publication_date: '2025-09-16T07:15:46+00:00'
+  submission_date: '2025-11-12T11:17:24.950548'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai4psychology-2025
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: llm-bia-2025
+  publication_date: '2025-09-01T12:16:14+00:00'
+  submission_date: '2025-11-12T11:17:27.746715'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/llm-bia-2025
+  
+- authors:
+  - Robert Haase
+  description: BioImage Analysis using Python tutorial at EMBO LSM 2025
+  license: Creative Commons Attribution 4.0 International
+  name: embo-lsm-bia-2025
+  publication_date: '2025-08-04T13:26:59+00:00'
+  submission_date: '2025-11-12T11:17:30.542083'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/embo-lsm-bia-2025
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  - Ronny Gey
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: ki-kompetenz-training-2025
+  publication_date: '2025-05-07T09:26:59+00:00'
+  submission_date: '2025-11-12T11:17:34.288852'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ki-kompetenz-training-2025
+  
+- authors:
+  - Lea Gihlein
+  description: Repository to help preparing for the BIDS exam with generating exam-like
+    questions and searching for the corresponding slides in the slide deck.
+  license: Creative Commons Attribution 4.0 International
+  name: SlideInsights-for-BIDS-lecture-25
+  publication_date: '2025-06-24T10:47:07+00:00'
+  submission_date: '2025-11-12T11:17:37.429344'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/SlideInsights-for-BIDS-lecture-25
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: LLM_Summer_School_Tutorial_2025
+  publication_date: '2025-06-19T12:10:56+00:00'
+  submission_date: '2025-11-12T11:17:40.289041'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/LLM_Summer_School_Tutorial_2025
+  
+- authors:
+  - Robert Haase
+  description: Training Materials for a session on LLMs
+  license: Creative Commons Attribution 4.0 International
+  name: secai_llm_training
+  publication_date: '2025-02-24T08:44:12+00:00'
+  submission_date: '2025-11-12T11:17:43.102941'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/secai_llm_training
+  
+- authors:
+  - "Matthias T\xE4schner"
+  description: ' This repository serves as playground for the DevOps workshop at DataWeek
+    Leipzig 2025 '
+  name: cicd-demo-dataweek2025
+  publication_date: '2025-05-15T10:58:51+00:00'
+  submission_date: '2025-11-12T11:17:46.083266'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/cicd-demo-dataweek2025
+  
+- authors:
+  - Robert Haase
+  description: ''
+  name: NLP-KI-Seminar-2025
+  publication_date: '2025-04-09T14:02:37+00:00'
+  submission_date: '2025-11-12T11:17:49.113395'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/NLP-KI-Seminar-2025
+  
+- authors:
+  - Robert Haase
+  - "Matthias T\xE4schner"
+  - Rene Steinmann
+  - Martijn van den Ende
+  - Maria Tsekhmistrenko
+  - Elias Werner
+  - Josefine Umlauft
+  - "Jannes M\xFCnchmeyer"
+  - Marine Denolle
+  description: 'Resources and materials for the AI4Seismology Training School (see:
+    https://scads.ai/event/international-training-school-ai-4-seismology/)'
+  license: Creative Commons Attribution 4.0 International
+  name: ai4seismology-2025
+  publication_date: '2025-04-27T13:46:58+00:00'
+  submission_date: '2025-11-12T11:17:56.066086'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai4seismology-2025
+  
+- authors:
+  - autmoate
+  description: This repo contains materials for the ScaDS.AI Meetup Workshop on local
+    LLMs
+  license: MIT License
+  name: scads-ai-meetup-local-llms
+  publication_date: '2025-03-11T10:00:57+00:00'
+  submission_date: '2025-11-12T11:17:58.730220'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/scads-ai-meetup-local-llms
+  
+- authors:
+  - autmoate
+  description: 'ScaDS.AI x HS Merseburg regarding a powerful and cheat-free alternative
+    to copy-pasting LLM-made code '
+  license: MIT License
+  name: learn-coding-basics-with-ai
+  publication_date: '2025-02-28T13:02:45+00:00'
+  submission_date: '2025-11-12T11:18:01.625425'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/learn-coding-basics-with-ai
+  
+- authors:
+  - autmoate
+  description: Workshop on ai-pair-porgramming with aider and cline
+  license: MIT License
+  name: grad-seminar-ai-pair-programming
+  publication_date: '2025-01-31T14:52:02+00:00'
+  submission_date: '2025-11-12T11:18:04.533083'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/grad-seminar-ai-pair-programming
+  
+- authors:
+  - Ronny Gey
+  - Robert Haase
+  - github-actions[bot]
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: ai_training_ufz_2025
+  publication_date: '2024-10-17T11:00:04+00:00'
+  submission_date: '2025-11-12T11:18:08.198385'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/ai_training_ufz_2025
+  
+- authors:
+  - Robert Haase
+  description: An app for showing speakers how much time they have left
+  license: BSD 3-Clause "New" or "Revised" License
+  name: conference-countdown
+  publication_date: '2024-09-22T07:18:09+00:00'
+  submission_date: '2025-11-12T11:18:11.213386'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/conference-countdown
+  
+- authors:
+  - Robert Haase
+  description: A collection of Jupyter notebooks explaining prompt engineering
+  license: Creative Commons Attribution 4.0 International
+  name: prompt-engineering-basics-2024
+  publication_date: '2024-08-17T11:22:48+00:00'
+  submission_date: '2025-11-12T11:18:14.161035'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/prompt-engineering-basics-2024
+  
+- authors:
+  - autmoate
+  description: Simple and basic python function for transcribing audio in realtime based
+    on faster-whisper
+  license: BSD 3-Clause "New" or "Revised" License
+  name: faster-whisper-stt
+  publication_date: '2024-04-11T14:27:41+00:00'
+  submission_date: '2025-11-12T11:18:17.010518'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/faster-whisper-stt
+  
+- authors:
+  - Robert Haase
+  - Jan Ewald
+  - AnjaNeumann
+  - "Matthias T\xE4schner"
+  - "Laura \u017Digutyt\u0117"
+  - Marie-Sophie von Braun
+  - Christian Martin
+  - dusan-prascevic
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: BIDS-training-2024
+  publication_date: '2024-02-19T08:38:35+00:00'
+  submission_date: '2025-11-12T11:18:23.170419'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/BIDS-training-2024
+  
+- authors:
+  - Robert Haase
+  description: Training resources for Students at Uni Leipzig who want to dive into
+    bio-image data science with Python. The material will develop between April and
+    July 2024
+  license: Creative Commons Attribution 4.0 International
+  name: BIDS-lecture-2024
+  publication_date: '2024-03-19T12:46:28+00:00'
+  submission_date: '2025-11-12T11:18:26.741887'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/BIDS-lecture-2024
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: csv_to_tex
+  publication_date: '2024-06-28T07:25:51+00:00'
+  submission_date: '2025-11-12T11:18:29.592994'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/csv_to_tex
+  
+- authors:
+  - "Matthias T\xE4schner"
+  - Robert Haase
+  description: Training on Python programming basics and the use of chatbots
+  license: Creative Commons Attribution 4.0 International
+  name: Python-training-2024
+  publication_date: '2024-05-23T11:56:39+00:00'
+  submission_date: '2025-11-12T11:18:32.902825'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/Python-training-2024
+  
+- authors:
+  - autmoate
+  - Robert Haase
+  description: "This jupyter-based and voil\xE1-ready prompting app gives the ability\
+    \ to use an api key for prompting workshops with an unlimited number of participants\
+    \ (while keeping in mind that some models cost per request). It bridges the temporary\
+    \ situation that there are no institutional LLM accesses yet and solutions such\
+    \ as GPTX are still a work in progress. "
+  license: BSD 3-Clause "New" or "Revised" License
+  name: prompting-with-api
+  publication_date: '2024-03-15T08:15:54+00:00'
+  submission_date: '2025-11-12T11:18:36.236782'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/prompting-with-api
+  
+- authors:
+  - Daniel Obraczka
+  - Nicholas Franklin Ziolkowski
+  description: "\U0001F4FD Benchmark datasets for Entity Resolution on Knowledge Graphs"
+  name: MovieGraphBenchmark
+  publication_date: '2024-03-13T16:08:07+00:00'
+  submission_date: '2025-11-12T11:18:40.003854'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/MovieGraphBenchmark
+  
+- authors:
+  - Robert Haase
+  description: Room bookings at ScaDS.AI / Uni Leipzig made easy
+  license: BSD 3-Clause "New" or "Revised" License
+  name: scadsai_room_booking
+  publication_date: '2024-02-22T13:22:19+00:00'
+  submission_date: '2025-11-12T11:18:43.731014'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/scadsai_room_booking
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: napari-tutorial-2023
+  publication_date: '2023-11-17T13:16:47+00:00'
+  submission_date: '2025-11-12T11:18:46.628428'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/napari-tutorial-2023
+  
+- authors:
+  - Robert Haase
+  description: "This Jupyter Book contains notebooks demonstrating OpenAI\u2019s API\
+    \ for using chatGPT."
+  license: BSD 3-Clause "New" or "Revised" License
+  name: prompt-engineering-tutorial-2023
+  publication_date: '2023-12-15T07:31:16+00:00'
+  submission_date: '2025-11-12T11:18:50.115898'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/prompt-engineering-tutorial-2023
+  
+- authors:
+  - Stefan Schmidt-Dichte
+  description: Reproducing the fashion image categorization and retrieval baseline approach
+    from https://github.com/switchablenorms/DeepFashion2 / https://arxiv.org/pdf/1901.07973.pdf
+  license: MIT License
+  name: Match-R-CNN-Repoduction
+  publication_date: '2020-06-26T09:31:25+00:00'
+  submission_date: '2025-11-12T11:18:53.302321'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/Match-R-CNN-Repoduction
+  
+- authors:
+  - Kevin Shrestha
+  - Hans Pogrzeba
+  - Christopher Rost
+  - "Vincent M\xE4rkl"
+  - CSchott
+  - Martin Grimmer
+  - Alexander
+  - Matthias Kricke
+  description: 'A free Open Source Tweet Map '
+  license: Apache License 2.0
+  name: OSTMap
+  publication_date: '2016-04-22T12:16:16+00:00'
+  submission_date: '2025-11-12T11:18:59.765105'
+  type: GitHub Repository
+  url: https://github.com/ScaDS/OSTMap
+  
