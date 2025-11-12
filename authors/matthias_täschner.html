@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>YML format &#8212; ScaDS.AI Zenodo Materials</title>
+    <title>Matthias täschner (7) &#8212; ScaDS.AI Zenodo Materials</title>
   
   
   
@@ -60,11 +60,9 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'contributing/format';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'authors/matthias_täschner';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Bsd 3-clause “new” or “revised” license (8)" href="../licenses/bsd_3-clause_%22new%22_or_%22revised%22_license.html" />
-    <link rel="prev" title="Using the Training Materials Submission App" href="submit_app.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
     <meta name="docbuild:last-update" content="2025-11-12"/>
@@ -128,6 +126,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -188,11 +188,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../whats_new.html">Recently added (10)</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contributing</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="index.html">How to contribute</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">How to contribute</a></li>
 
-<li class="toctree-l1"><a class="reference internal" href="submit_app.html">Using the Training Materials Submission App</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">YML format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/submit_app.html">Using the Training Materials Submission App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/format.html">YML format</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">By license</span></p>
 <ul class="nav bd-sidenav">
@@ -285,7 +285,7 @@
       
       
       
-      <li><a href="https://github.com/scads/zenodo-tracking/issues/new?title=Issue%20on%20page%20%2Fcontributing/format.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/scads/zenodo-tracking/issues/new?title=Issue%20on%20page%20%2Fauthors/matthias_täschner.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -315,7 +315,7 @@
       
       
       
-      <li><a href="../_sources/contributing/format.md" target="_blank"
+      <li><a href="../_sources/authors/matthias_täschner.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -386,7 +386,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -397,11 +399,25 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>YML format</h1>
+    <h1>Matthias täschner (7)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bids-training-2024">BIDS-training-2024</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colibri">CoLIBRi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-training-2024">Python-training-2024</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-school-iom-2025">ai-school-iom-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4medicine-2025">ai4medicine-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4seismology-2025">ai4seismology-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cicd-demo-dataweek2025">cicd-demo-dataweek2025</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -411,29 +427,75 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="yml-format">
-<h1>YML format<a class="headerlink" href="#yml-format" title="Link to this heading">#</a></h1>
-<p>In this repository, we store training materials using a simple YML format. These files are structured like this:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">resources</span>
-<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">NFDI4BioImage</span> <span class="n">Website</span>
-  <span class="nb">type</span><span class="p">:</span>
-  <span class="o">-</span> <span class="n">collection</span>
-  <span class="o">-</span> <span class="n">website</span>
-  <span class="n">url</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">nfdi4bioimage</span><span class="o">.</span><span class="n">de</span> 
-</pre></div>
-</div>
-<p>These entries can have multiple properties:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> (mandatory): A descriptive title of the resource</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">url</span></code> (mandatory): Resources must be available on the internet using a URL or DOI-URL.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> (mandatory): Content types such as <code class="docutils literal notranslate"><span class="pre">video</span></code>, <code class="docutils literal notranslate"><span class="pre">collection</span></code>, <code class="docutils literal notranslate"><span class="pre">blog</span> <span class="pre">post</span></code> etc. Resources can have multiple content types. Collections are lists of links, which could potentially contain more entries.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">license</span></code> (optional, recommended)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> (optional)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">publication_date</span></code> (optional)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">authors</span></code> (optional)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">tags</span></code> (optional)</p></li>
-</ul>
-<p>This list of meta-data entries is extensible, just let us know using a <a class="reference external" href="https://github.com/NFDI4BIOIMAGE/training/issues">github-issue</a> which kind of meta data you would like to add here.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="matthias-taschner-7">
+<h1>Matthias täschner (7)<a class="headerlink" href="#matthias-taschner-7" title="Link to this heading">#</a></h1>
+<section id="bids-training-2024">
+<h2>BIDS-training-2024<a class="headerlink" href="#bids-training-2024" title="Link to this heading">#</a></h2>
+<p>Robert Haase, Jan Ewald, AnjaNeumann, Matthias Täschner, Laura Žigutytė, Marie-Sophie von Braun, Christian Martin, dusan-prascevic</p>
+<p>Published 2024-02-19T08:38:35+00:00</p>
+<p>Licensed Creative Commons Attribution 4.0 International</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/BIDS-training-2024">ScaDS/BIDS-training-2024</a></p>
+</section>
+<hr class="docutils" />
+<section id="colibri">
+<h2>CoLIBRi<a class="headerlink" href="#colibri" title="Link to this heading">#</a></h2>
+<p>Matthias Täschner, lucaspeter99, jp31zusu</p>
+<p>Published 2025-08-19T10:28:15+00:00</p>
+<p>Licensed Apache License 2.0</p>
+<p>AI based information extraction and retrieval for similarity search on technical drawings</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/CoLIBRi">ScaDS/CoLIBRi</a></p>
+</section>
+<hr class="docutils" />
+<section id="python-training-2024">
+<h2>Python-training-2024<a class="headerlink" href="#python-training-2024" title="Link to this heading">#</a></h2>
+<p>Matthias Täschner, Robert Haase</p>
+<p>Published 2024-05-23T11:56:39+00:00</p>
+<p>Licensed Creative Commons Attribution 4.0 International</p>
+<p>Training on Python programming basics and the use of chatbots</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/Python-training-2024">ScaDS/Python-training-2024</a></p>
+</section>
+<hr class="docutils" />
+<section id="ai-school-iom-2025">
+<h2>ai-school-iom-2025<a class="headerlink" href="#ai-school-iom-2025" title="Link to this heading">#</a></h2>
+<p>SalonderZukunft, Matthias Täschner, Robert Haase, Martin Rudolph, Omid Shayestehpour</p>
+<p>Published 2025-09-02T08:25:19+00:00</p>
+<p>Licensed Creative Commons Attribution 4.0 International</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/ai-school-iom-2025">ScaDS/ai-school-iom-2025</a></p>
+</section>
+<hr class="docutils" />
+<section id="ai4medicine-2025">
+<h2>ai4medicine-2025<a class="headerlink" href="#ai4medicine-2025" title="Link to this heading">#</a></h2>
+<p>Matthias Täschner, mxsunc, dsinas, Robert Haase, Asier Rabasco , Laura Žigutytė, kepler186f-git, mar-chem</p>
+<p>Published 2025-05-13T08:12:43+00:00</p>
+<p>Licensed Creative Commons Attribution 4.0 International</p>
+<p>Resources and materials for a DataScience / AI training school for the medical domain, conducted as part of the Come2Data (<a class="reference external" href="https://come2data.de/">https://come2data.de/</a>) project.</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/ai4medicine-2025">ScaDS/ai4medicine-2025</a></p>
+</section>
+<hr class="docutils" />
+<section id="ai4seismology-2025">
+<h2>ai4seismology-2025<a class="headerlink" href="#ai4seismology-2025" title="Link to this heading">#</a></h2>
+<p>Robert Haase, Matthias Täschner, Rene Steinmann, Martijn van den Ende, Maria Tsekhmistrenko, Elias Werner, Josefine Umlauft, Jannes Münchmeyer, Marine Denolle</p>
+<p>Published 2025-04-27T13:46:58+00:00</p>
+<p>Licensed Creative Commons Attribution 4.0 International</p>
+<p>Resources and materials for the AI4Seismology Training School (see: <a class="reference external" href="https://scads.ai/event/international-training-school-ai-4-seismology/">https://scads.ai/event/international-training-school-ai-4-seismology/</a>)</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/ai4seismology-2025">ScaDS/ai4seismology-2025</a></p>
+</section>
+<hr class="docutils" />
+<section id="cicd-demo-dataweek2025">
+<h2>cicd-demo-dataweek2025<a class="headerlink" href="#cicd-demo-dataweek2025" title="Link to this heading">#</a></h2>
+<p>Matthias Täschner</p>
+<p>Published 2025-05-15T10:58:51+00:00</p>
+<p>This repository serves as playground for the DevOps workshop at DataWeek Leipzig 2025</p>
+<p>Content type: GitHub Repository</p>
+<p><a class="github reference external" href="https://github.com/ScaDS/cicd-demo-dataweek2025">ScaDS/cicd-demo-dataweek2025</a></p>
+<hr class="docutils" />
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -449,7 +511,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./contributing"
+            path: "./authors"
         },
         predefinedOutput: true
     }
@@ -466,30 +528,33 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="submit_app.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Using the Training Materials Submission App</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="../licenses/bsd_3-clause_%22new%22_or_%22revised%22_license.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Bsd 3-clause “new” or “revised” license (8)</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bids-training-2024">BIDS-training-2024</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colibri">CoLIBRi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-training-2024">Python-training-2024</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-school-iom-2025">ai-school-iom-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4medicine-2025">ai4medicine-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4seismology-2025">ai4seismology-2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cicd-demo-dataweek2025">cicd-demo-dataweek2025</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

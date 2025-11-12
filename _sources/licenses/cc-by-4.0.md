@@ -1,4 +1,4 @@
-# Cc-by-4.0 (25)
+# Cc-by-4.0 (24)
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -64,25 +64,6 @@ In this slide deck we go through challenges towards building Autonomous AI Syste
 [https://zenodo.org/records/17017890](https://zenodo.org/records/17017890)
 
 [https://doi.org/10.5281/zenodo.17017890](https://doi.org/10.5281/zenodo.17017890)
-
-
----
-
-## Bio-image Data Science
-
-Robert Haase
-
-Licensed CC-BY-4.0
-
-
-
-This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
-
-Tags: Research Data Management, artificial intelligence, Bio-Image Analysis, Python, include in DALIA
-
-Content type: Notebook
-
-[https://github.com/ScaDS/BIDS-lecture-2024](https://github.com/ScaDS/BIDS-lecture-2024)
 
 
 ---
