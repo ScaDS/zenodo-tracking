@@ -29,32 +29,36 @@ def main():
     yml_filename = "resources/scadsai.yml"
     
     # Get the issue body, which should contain a GitHub repository link
-    issue_text = get_issue_body(repository, issue)
-    if "\n" in issue_text or not issue_text.startswith("https://github.com/"):
-        print(issue_text, " is not a GitHub repository link. Exiting.")
-        return
-
-    github_repo_url = issue_text
-
-    # Retrieve GitHub metadata
-    github_data_dict = complete_github_data(github_repo_url)
-    github_yml = "\n- " + yaml.dump(github_data_dict).replace("\n", "\n  ")
-
-    # Read the existing YAML "database"
+    whole_issue_text = get_issue_body(repository, issue)
     branch = create_branch(repository)
+    # Read the existing YAML "database"
     file_content = get_file_in_repository(repository, branch, yml_filename).decoded_content.decode()
 
-    print("YAML file content length:", len(file_content))
+    data_len = len(file_content)
+    print("YAML file content length:", )
 
-    # Add the new entry
-    file_content += github_yml
+    for issue_text in whole_issue_text.splitlines():
+        if not issue_text.startswith("https://github.com/"):
+            continue
+
+        github_repo_url = issue_text
+
+        # Retrieve GitHub metadata
+        github_data_dict = complete_github_data(github_repo_url)
+        github_yml = "\n- " + yaml.dump(github_data_dict).replace("\n", "\n  ")
+
+
+        # Add the new entry
+        file_content += github_yml
+
+    if data_len == len(file_content):
+        print("No new data to add. Exiting.")
+        return
 
     # Save the updated content back to GitHub and create a pull request
     write_file(repository, branch, yml_filename, file_content, "Add " + github_repo_url)
     res = send_pull_request(repository, branch, "Add " + github_repo_url, f"""This is an automatically created pull-request. Before merging this, please make sure
-* [ ] has proper `tags` set.
-* [ ] has reasonable content `type` depending on the content of the github repository.
- [Read more](https://nfdi4bioimage.github.io/training/contributing/format.html) 
+ [Read more](https://scads.github.io/zenodo-tracking/contributing/format.html) 
    
 closes #{issue}
 """)
@@ -122,9 +126,6 @@ def complete_github_data(github_repo_url):
     entry['publication_date'] = get_publication_date(repo)
 
     entry['submission_date'] = datetime.now().isoformat()
-
-    # Tags: always add the message "Dear users, please add tags."
-    entry['tags'] = "TODO"
 
     # Type: Always set this field to "GitHub Repository"
     entry['type'] = "GitHub Repository"
