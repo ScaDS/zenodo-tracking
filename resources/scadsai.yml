@@ -8875,3 +8875,21 @@ resources:
   type: GitHub Repository
   url: https://github.com/haesleinhuepf/pdf2gif
 
+- authors:
+  - Simon Razniewski
+  description: 'Images created to illustrate GPTKB 2.0 entities, using the black-forest-labs/FLUX.2-dev
+    VLM. File name = entity ID, e.g., "E0.jpg" illustrates https://gptkb.org/entity/E0/
+    (Vannevar Bush).
+
+    The generating prompts are retained in manifest.jsonl, and consist of the entity
+    label + description.
+
+    '
+  name: GPTKB_2.0_images
+  publication_date: '2026-08-19'
+  tags: []
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_2.0_images
+  license: cc-by-4.0
+  num_downloads: 702
+  submission_date: '2026-09-08T18:14:11.939113'
